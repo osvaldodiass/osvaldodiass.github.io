@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .cabecalho {
+            text-align: center;
+            vertical-align: bottom;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 14pt;
+        }
+     .div-wrapper {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 10px;
+}
+     img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+.img-hover-zoom {
+  height: 300px; 
+  overflow: hidden; 
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+      body {
+          background-color: black;
+      }
+      </style>
+     <div class="img-hover-zoom">
+        <a href="page2.html"> 
+            <img src="5.png" alt="This zooms-in really well and smooth" width="30%">
+        </a>
+      </div>
+      <div class="div-wrapper" src="cabecalho.png" alt="div-wrapper"img style="vertical-align: bottom;">
+      </div>
+<br>
+<br>
+<br>
+<div class="cabecalho">ADMINISTRATIVO • AMBIENTAL • CÍVEL • CONSUMIDOR • INTERNACIONAL• LICITAÇÕES E DIREITO PÚBLICO  • PENAL• TRIBUTÁRIO • TRABALHISTA
+</div>
+</p>
+      
+</body>
+<SCRIPT LANGUAGE="JavaScript">
+    <!-- Disable
+    function disableselect(e){
+    return false
+    }
+    
+    function reEnable(){
+    return true
+    }
+    
+    //if IE4+
+    document.onselectstart=new Function ("return false")
+    document.oncontextmenu=new Function ("return false")
+    //if NS6
+    if (window.sidebar){
+    document.onmousedown=disableselect
+    document.onclick=reEnable
+    }
+    //-->
+    </SCRIPT>
+</html>
+
